@@ -1,0 +1,2 @@
+# SudoFileEnricher
+During a project we had to pre process a daily export of a complete sudo history file. The history file was copied daily from an environment we did not have access to. We had to use this daily full copy. As from the beginning of the file untill somewhere in the middle the date was missing a year. This console app corrects the date ware needed. Additionally linebreaks are found in the sudo, they are removed as well.
